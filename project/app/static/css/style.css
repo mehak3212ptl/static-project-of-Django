@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+/* home.html  */
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+    filter: blur(3px);
+}
+.gall img {
+    height: 50vh;   
+    width: 85%;
+}
+.gall1{
+    background-color: black;
+    padding: 10px;
+}
+.gall2 {
+    margin:-5px;
+    font-weight: 9000;
+    
+}
