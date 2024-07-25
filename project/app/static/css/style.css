@@ -17,6 +17,7 @@ body{
 .gall img {
     height: 50vh;   
     width: 85%;
+    
 }
 .gall1{
     background-color: black;
@@ -27,3 +28,94 @@ body{
     font-weight: 9000;
     
 }
+.offer_style{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url("/static/images/image.jpg"); 
+    padding :100px;   
+}
+.offer h1 {
+    color: white;    
+}
+.offer p {
+    color: white;    
+}
+
+/* about */
+.about-img{
+    /* max-height: 20%; */
+   min-height: 50%;
+} 
+.offer1 h2{
+    font-weight: bold;
+    color:white;
+
+}
+.offer_style1{
+    background-color: black;
+    padding :100px;
+}
+/* blogss */
+.ani{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+img{
+    height: 250px;
+    width: 350px;
+    border-radius: 3px;
+    z-index: 1;
+    transition: all .5s;
+}
+.box:hover img{
+    transform: translateX(-30px) translateY(30px);
+    box-shadow: 1px 1px 8px black;
+}
+.back{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px black;
+    text-align: center;
+    position: absolute;
+    transition: all .5s;
+}
+.back{
+    margin-top: 5px;
+}
+
+.box:hover .back{
+    transform: translateX(27px) translateY(-27px);
+}
+@media only screen and (min-width:300px)and (max-width:800px){
+    .container{
+        height: 100vh;
+    }
+    .box:hover img{
+        transform: translateY(34px);
+    }
+    .box {
+        margin: 40px;
+    }
+    .box:hover .back{
+        transform: translateY(-30px);
+    }
+}
+/* .contact{
+    padding: 100px;
+} */
