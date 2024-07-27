@@ -102,7 +102,55 @@ img{
 .box:hover .back{
     transform: translateX(27px) translateY(-27px);
 }
-@media only screen and (min-width:300px)and (max-width:800px){
+
+/* next section  */
+.well3{
+    padding: 100%;
+    padding-top: 90px;
+    padding-bottom: 500px;
+}
+
+.bg1{
+    background-color: white;
+}
+h2{
+    color: #444444;
+    text-align: center;
+}
+.fadeInUp{
+    animation-name: fadeInUp;
+}
+.date{
+    font-weight: 300;
+    font-size: 36px;
+    color: #00aeef;
+}
+time{
+    display: block;
+}
+h4 a:hover,h5 a:hover ,h6 a:hover{
+    color: #f7941d;
+}
+a{
+    font:inherit;
+    text-decoration: none;   
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 700;
+    background: #f7941d;
+    border-radius: 20px;
+}
+.div1{
+    margin-left: -10px;
+}
+.wow{
+    margin-bottom: 100px;
+}
+/* @media only screen and (min-width:300px)and (max-width:800px){
     .container{
         height: 100vh;
     }
@@ -115,7 +163,21 @@ img{
     .box:hover .back{
         transform: translateY(-30px);
     }
-}
+}  */
 /* .contact{
     padding: 100px;
 } */
+
+/* protfolio */
+.cont1 h4{
+    color:#f7941d;  
+}
+.cont2{
+    background-color: rgb(148, 144, 144);   
+}
+.cont3{
+    margin-top: 20px;
+}
+.cont4{
+    margin-top: 50px;
+}

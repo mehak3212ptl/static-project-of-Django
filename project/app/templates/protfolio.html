@@ -2,42 +2,47 @@
 {% load static %}
 
 {% block content %}
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img src="{% static 'images/blog-3.jpg' %}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
+
+<div class="container" style="margin-top: 20px;margin-bottom: 25px;">
+  <div class="row">
+    <div class="col-md-4 col-10 col-xxl-4 mx-auto cont1">
+      <figure>
+        <img src="{% static 'images/gallery-2.jpg' %}" alt="Gallery" class="img-fluid">
+        <h4>News  <h6>Apr 21, 2019 at 12:05 pm</h6></h4>
+       <h4>Introduction to Hinduism:<br>Vedic, Epic, and <br>Puranic Deities</h4>
+    </figure>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="{% static 'images/blog-3.jpg' %}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
+
+    <div class="col-md-4 col-10 col-xxl-4 mx-auto cont1">
+      <figure>
+        <img src="{% static 'images/gallery-2.jpg' %}" alt="Gallery" class="img-fluid">
+        <h4>News  <h6>Apr 21, 2019 at 12:05 pm</h6></h4>
+        <h4>12 Things You Need to Know About Hinduism</h4>
+    </figure>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="{% static 'images/blog-3.jpg' %}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
+
+    <div class="col-md-4 col-10 col-xxl-4 mx-auto cont2">
+      <div class="cont3">
+      <h1> Blog Search </h1>
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    </div>
+    <div class="cont4">
+    <h4>Archive</h4>
+    <br>
+    <h6><i class="fa-solid fa-arrow-right"></i>    May 2019</h6>
+    <h6><i class="fa-solid fa-arrow-right"></i>    April 2019</h6>
+    <h6><i class="fa-solid fa-arrow-right"></i>    October 2019</h6>
+    <h6><i class="fa-solid fa-arrow-right"></i>    December 2019</h6>
+    <h6><i class="fa-solid fa-arrow-right"></i>    January 2019</h6>
+    <br>
+    <br>
+    <br>
+    <h4>Tags</h4>
+    <br>
+    <h6>News  Articles, Hinduism, Traditions, Mantras ,Religion</h6>
+
+  </div>
     </div>
   </div>
+</div>
 {% endblock %}
