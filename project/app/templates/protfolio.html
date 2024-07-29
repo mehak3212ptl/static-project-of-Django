@@ -7,7 +7,7 @@
   <div class="row">
     <div class="col-md-4 col-10 col-xxl-4 mx-auto cont1">
       <figure>
-        <img src="{% static 'images/gallery-2.jpg' %}" alt="Gallery" class="img-fluid">
+        <img src="{% static 'images/prott-1.jpg' %}" alt="Gallery" class="img-fluid">
         <h4>News  <h6>Apr 21, 2019 at 12:05 pm</h6></h4>
        <h4>Introduction to Hinduism:<br>Vedic, Epic, and <br>Puranic Deities</h4>
     </figure>
@@ -15,8 +15,8 @@
 
     <div class="col-md-4 col-10 col-xxl-4 mx-auto cont1">
       <figure>
-        <img src="{% static 'images/gallery-2.jpg' %}" alt="Gallery" class="img-fluid">
-        <h4>News  <h6>Apr 21, 2019 at 12:05 pm</h6></h4>
+        <img src="{% static 'images/portt-2.jpg' %}" alt="Gallery" class="img-fluid">
+        <h4>News  <h6>Apr 21, 2020 at 01:05 pm</h6></h4>
         <h4>12 Things You Need to Know About Hinduism</h4>
     </figure>
     </div>
@@ -44,5 +44,16 @@
   </div>
     </div>
   </div>
+</div>
+<div class="cont7">
+ <nav aria-label="...">
+  <ul class="pagination pagination-lg">
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">1</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="{% url 'port2' %}">2</a></li>
+    <li class="page-item"><a class="page-link" href="{% url 'port3' %}">3</a></li>
+  </ul>
+</nav>
 </div>
 {% endblock %}

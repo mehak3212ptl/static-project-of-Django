@@ -15,3 +15,12 @@ def contact(request):
 
 def protfolio(request):
     return render(request,'protfolio.html')
+
+def port2(request):
+    return render(request,'port2.html')
+
+def port3(request):
+    return render(request,'port3.html')
+
+def steps(request):
+    return render(request,'steps.html')

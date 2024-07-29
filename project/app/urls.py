@@ -6,8 +6,9 @@ urlpatterns = [
     path('about/',about,name='about'),
     path('contact/',contact,name='contact'),
     path('blog/',blog,name='blog'),
-    path('protfolio/',protfolio,name='protfolio')
-
-    
+    path('protfolio/',protfolio,name='protfolio'),
+    path('port2/',port2,name='port2'),
+    path('port3/',port3,name='port3'),
+    path('steps/',steps,name='steps')
     
 ]
