@@ -9,6 +9,7 @@ urlpatterns = [
     path('protfolio/',protfolio,name='protfolio'),
     path('port2/',port2,name='port2'),
     path('port3/',port3,name='port3'),
-    path('steps/',steps,name='steps')
+    path('steps/',steps,name='steps'),
+    path('succesfull/',success,name='success')
     
 ]

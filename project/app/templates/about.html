@@ -2,64 +2,35 @@
 {% load static %}
 
 {% block content %}
-<section class="main_heading my-5">
-    <div class="text-center">
-        <h1 class="display-5">A Few Words About Us </h1>
-        <hr class="w-25 mx-auto"/>
-    </div>
-    <div class="container" style="margin-top: 50px;">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                <figure >
-                    <img src="{% static 'images/about-2.jpg' %}" alt="image" class="img-fluid about-img" style="min-height:100%;max-height:280px;width: 50%;margin-left: 35%;">
-                </figure>
-            </div>
-                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                    <h1>Education</h1>
-                    <p>One of our goals is to educate Hindus worldwide <br>by promoting a balanced understanding of Hinduism as<br> a live tradition.</p>
-                    <button class="btn btn-outline-info" type="button">Check More</button>
-                </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                <figure >
-                    <img src="{% static 'images/about-3.jpeg' %}" alt="image" class="img-fluid about-img" style="min-height:100%;max-height:280px;width: 50%;margin-left: 35%;">
-                </figure>
-            </div>
-                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                    <h1>Policy</h1>
-                    <p>We see one of our tasks in advocating for policies<br> that enhance the well-being and secure <br>the human rights of Hindus globally</p>
-                    <button class="btn btn-outline-info" type="button">Check More</button>
-                </div>
-        </div>
+<div class="text-center my-5">
+    <h1 class="display-5">A Few Words About Us </h1>
+    <hr class="w-25 mx-auto"/>
+</div>
 
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                <figure >
-                    <img src="{% static 'images/about-4.jpg' %}" alt="image" class="img-fluid about-img" style="min-height:100%;max-height:280px;width: 50%;margin-left: 35%;">
-                </figure>
-            </div>
-                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                    <h1>Community</h1>
-                    <p>Hindu Faith aims to enhance the well-being,<br> safety, and security of Hindu communities &<br> institutions and build a culture of advocacy.</p>
-                    <button class="btn btn-outline-info" type="button">Check More</button>
-                </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                <figure >
-                    <img src="{% static 'images/about-5.jpeg' %}" alt="image" class="img-fluid about-img" style="min-height:100%;max-height:280px;width: 50%;margin-left: 35%;">
-                </figure>
-            </div>
-                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                    <h1>Charitable Help</h1>
-                    <p>Our organization fully supports all kinds of charity <br>by providing help to members of Hinduism community through giving, <br>gifting, sharing and caring for others</p>
-                    <button class="btn btn-outline-info" type="button">Check More</button>
-                </div>
-            </div>
+<section class="section__container about__container about">
+    <div class="about__content">
+      <p>
+        At Simply Home Decorators, we are passionate about transforming houses
+        into dream homes. With our expertise in interior design, we strive to
+        create spaces that reflect your unique style and personality, while
+        ensuring functionality and comfort.
+      </p>
+      <h4>
+        Our dedicated team works closely with clients to understand vision,
+        preferences, and lifestyle. Whether you're seeking a modern,
+        minimalist, rustic atmosphere, we bring your ideas to life.
+      </h4>
+      <p>
+        From concept to completion, we meticulously curate every aspect of the
+        design process. We carefully select colors, textures, furniture,
+        lighting, and decor elements to achieve the desired ambiance and
+        create a harmonious living environment.
+      </p>
     </div>
-</section>
+    <div class="about__image">
+      <img src="{% static 'images/about-4.jpg' %}" alt="about" />
+    </div>
+  </section>
 
 
 <section class="main_heading my-5 pt-5 offer_style1">

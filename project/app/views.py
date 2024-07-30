@@ -24,3 +24,6 @@ def port3(request):
 
 def steps(request):
     return render(request,'steps.html')
+
+def success(request):
+    return render(request,'success.html')
