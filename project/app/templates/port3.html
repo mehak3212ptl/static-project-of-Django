@@ -6,23 +6,54 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<div class="container01">
-  <div class="box01">
-    <img src="{% static 'images/gallery-1.jpg' %}">
-  </div>
-  <div class="box01">
-    <img src="{% static 'images/gallery-2.jpg' %}">
-  </div>
-  <div class="box01">
-    <img src="{% static 'images/gallery-4.jpg' %}">
-  </div>
-  <div class="box01">
-    <img src="{% static 'images/gallery-5.jpg' %}">
-  </div>
-  <div class="box01">
-    <img src="{% static 'images/gallery-6.jpg' %}">
-  </div>
+<section id="project" class="project">
+
+  <div class="text-center my-5">
+    <h1 class="display-5">Our Grid-Gallery </h1>
+    <hr class="w-25 mx-auto"/>
 </div>
+  
+  <div class="box-container mx-auto">
+  
+  <div class="box">
+    <a href="{% static 'images/gallery-1.jpg' %}" title="house">
+      <img src="{% static 'images/gallery-1.jpg' %}" alt="">
+    </a>
+  </div>
+  
+  <div class="box">
+    <a href="{% static 'images/gallery-7.jpg' %}" title="hall">
+      <img src="{% static 'images/gallery-7.jpg' %}" alt="">
+    </a>
+  </div>
+  
+  <div class="box">
+    <a href="{% static 'images/gallery-2.jpg' %}" title="pole">
+      <img src="{% static 'images/gallery-2.jpg' %}" alt="">
+    </a>
+  </div>
+  
+  <div class="box">
+    <a href="{% static 'images/gallery-4.jpg' %}" title="kitchen">
+      <img src="{% static 'images/gallery-4.jpg' %}" alt="">
+    </a>
+  </div>
+  
+  <div class="box">
+    <a href="{% static 'images/gallery-5.jpg' %}" title="bath">
+      <img src="{% static 'images/gallery-5.jpg' %}" alt="">
+    </a>
+  </div>
+  
+  <div class="box">
+    <a href="{% static 'images/gallery-6.jpg' %}" title="toilet">
+      <img src="{% static 'images/gallery-6.jpg' %}" alt="">
+    </a>
+  </div>
+  
+  </div>
+  
+  </section>
 
 
 
