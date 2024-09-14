@@ -10,6 +10,8 @@ urlpatterns = [
     path('port2/',port2,name='port2'),
     path('port3/',port3,name='port3'),
     path('steps/',steps,name='steps'),
-    path('succesfull/',success,name='success')
+    path('succesfull/',success,name='success'),
+    path('sign/',sign,name='sign'),
+    path('login/',login,name='login')
     
 ]
